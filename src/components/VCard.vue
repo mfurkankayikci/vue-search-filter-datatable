@@ -41,10 +41,14 @@ export default {
 
   &__picture {
     @apply h-36 w-36 rounded overflow-hidden flex-shrink;
+
+    flex-basis: 40%;
   }
 
   &__content {
-    @apply flex-grow px-6 py-3;
+    @apply px-6 py-3;
+
+    flex-basis: 60%;
   }
 
   &__name {
